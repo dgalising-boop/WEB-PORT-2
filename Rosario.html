@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0B0F19">
+
+  <title>Bernalita P. Rosario — Aspiring Web Support Specialist</title>
+  <meta name="description" content="Professional portfolio of Bernalita P. Rosario, highlighting her web support skills, graphic design experience, education, and contact information.">
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="All.css">
+</head>
+<body>
+  
+  <!-- Ambient Grid Background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- Pure CSS State Management -->
+  <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox" aria-hidden="true">
+  <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-hidden="true">
+
+  <!-- Intro Screen Animation -->
+  <div class="intro-screen" aria-hidden="true">
+    <div class="intro-content">
+      <p class="intro-eyebrow">// SYSTEM INITIATION</p>
+      <h1 class="intro-title">Bernalita P. <span class="gradient-text">Rosario</span></h1>
+      <div class="intro-loader"></div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#home" class="logo" aria-label="Bernalita P. Rosario, home">
+        BR<span class="logo-dot">.</span>
+      </a>
+
+      <div class="nav-wrapper">
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="index.html">Team Hub</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        
+        <label for="theme-toggle" class="theme-switch" aria-label="Toggle dark/light mode"></label>
+      </div>
+
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+  </header>
+
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span> Available for Opportunities
+        </div>
+        
+        <p class="hero-eyebrow">// PROFESSIONAL PROFILE</p>
+        <h1 class="hero-name">Bernalita P. <span class="gradient-text">Rosario</span></h1>
+        <p class="hero-role">Aspiring Web Support Specialist</p>
+
+        <div class="terminal-window">
+          <div class="terminal-header">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="terminal-title">guest@brosario:~</span>
+          </div>
+          <div class="terminal-body">
+            <p class="hero-terminal">
+              <span class="terminal-prompt">~ $</span> execute --mission "supporting web and digital projects with creative and technical skills"
+              <span class="cursor-blink" aria-hidden="true">_</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="#experience" class="btn btn-primary">View Experience</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label-tag">01. PROFILE</span>
+          <h2 class="section-heading">Motivated operations & digital design specialist.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="profile-card">
+            <div class="profile-frame" data-initials="BR">
+              <img src="Rosario.jpg" alt="Portrait of Bernalita P. Rosario" class="profile-img" loading="lazy" width="350" height="350" onerror="this.style.display='none'">
+            </div>
+          </div>
+
+          <div class="about-text">
+            <p>
+              I am a motivated individual equipped with solid foundational skills in computer operations, graphic design, and practical content creation.
+            </p>
+            <p>
+              I aim to use my technical and creative abilities to support web and digital projects, actively contribute to team goals, and continuously grow through practical, hands-on work experience.
+            </p>
+            <a href="#contact" class="link-arrow">Let's work together <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label-tag">02. CAREER</span>
+          <h2 class="section-heading">Professional Journey</h2>
+        </div>
+
+        <!-- Using single-card grid for focused experience -->
+        <div class="experience-timeline" style="grid-template-columns: 1fr; max-width: 800px; margin: 0 auto;">
+          
+          <article class="exp-card">
+            <div class="exp-header">
+              <div class="exp-title-group">
+                <h3>ICT Support Trainee</h3>
+                <p class="exp-company">Papallasen Elementary School</p>
+              </div>
+              <span class="exp-date">Jan 05 — Jan 16, 2026</span>
+            </div>
+            <ul class="exp-list">
+              <li>Assisted in maintaining and meticulously organizing digital files and school records.</li>
+              <li>Created clean, simple visual materials and layouts for internal school use.</li>
+              <li>Helped troubleshoot basic computer and document formatting issues for faculty.</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label-tag">03. EXPERTISE</span>
+          <h2 class="section-heading">Core Skills & Qualifications</h2>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Competencies & Awards -->
+          <div class="bento-box skill-category">
+            <h3 class="bento-title">Core Competencies</h3>
+            <div class="tools-row" style="margin-bottom: 2.5rem;">
+              <span class="tool-chip">Computer Operations</span>
+              <span class="tool-chip">Basic Web Support</span>
+              <span class="tool-chip">Graphic Design & Layout</span>
+              <span class="tool-chip">Content Creation</span>
+              <span class="tool-chip">Basic Troubleshooting</span>
+              <span class="tool-chip">Microsoft Office Suite</span>
+              <span class="tool-chip">File Management</span>
+            </div>
+
+            <h3 class="bento-title" style="font-size: 1.2rem; margin-bottom: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--color-border);">Awards & Achievements</h3>
+            
+            <div class="edu-item">
+              <div class="edu-icon">🥇</div>
+              <div class="edu-details">
+                <strong>1st Placer</strong>
+                <span>Basic Computer Operations Quiz Bee | 2025</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-icon">🎨</div>
+              <div class="edu-details">
+                <strong>6th Placer & Best in Design</strong>
+                <span>Tarpaulin Layout Competition | 2025</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-icon">🌟</div>
+              <div class="edu-details">
+                <strong>Outstanding Performance</strong>
+                <span>Computer Literacy Recognition | 2024-2025</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education & Languages -->
+          <div class="bento-box education-block">
+            <h3 class="bento-title">Education</h3>
+            
+            <div class="edu-item">
+              <div class="edu-icon">🎓</div>
+              <div class="edu-details">
+                <strong>Senior High School (TVL - ICT Track)</strong>
+                <span>Umingan National High School | 2024 - Present</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-icon">🏫</div>
+              <div class="edu-details">
+                <strong>Junior High School</strong>
+                <span>Umingan National High School | 2020 - 2024</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-icon">🎒</div>
+              <div class="edu-details">
+                <strong>Elementary Education</strong>
+                <span>Papallasen Elementary School | 2014 - 2020</span>
+              </div>
+            </div>
+
+            <h3 class="bento-title" style="font-size: 1.2rem; margin-bottom: 1.5rem; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--color-border);">Languages</h3>
+            
+            <div class="edu-item">
+              <div class="edu-icon">🗣️</div>
+              <div class="edu-details">
+                <strong>Tagalog / Ilocano</strong>
+                <span>Native Proficiency</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-icon">🌐</div>
+              <div class="edu-details">
+                <strong>English</strong>
+                <span>Conversational</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-inner">
+          <span class="section-label-tag centered">04. CONNECT</span>
+          <h2 class="section-heading">Ready to Collaborate?</h2>
+          <p class="contact-sub">
+            Looking for a motivated Web Support Specialist to join your team? Feel free to reach out.
+          </p>
+
+          <div class="contact-buttons">
+            <a href="Bernalita_P_Rosario_Updated_Resume.pdf" download class="btn btn-primary">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="margin-right:8px;"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              Download Resume
+            </a>
+            <a href="mailto:bernalitarosario4@gmail.com" class="btn btn-outline">Email Me</a>
+            <a href="tel:09163830687" class="btn btn-outline">Call Me</a>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-item">
+              <span class="contact-label">Email Address</span>
+              <a href="mailto:bernalitarosario4@gmail.com" class="contact-link">bernalitarosario4@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Phone Number</span>
+              <a href="tel:09163830687" class="contact-link">0916-383-0687</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Location</span>
+              <span class="contact-link">Papallasen, Umingan, Pangasinan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo" aria-label="Back to top">
+        BR<span class="logo-dot">.</span>
+      </a>
+      <p class="footer-copy">© 2026 Bernalita P. Rosario. Engineered with Pure HTML & CSS.</p>
+    </div>
+  </footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0B0F19">
+
+  <title>Bernalita P. Rosario — Aspiring Web Support Specialist</title>
+  <meta name="description" content="Professional portfolio of Bernalita P. Rosario, highlighting her web support skills, graphic design experience, education, and contact information.">
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="All.css">
+</head>
+<body>
+  
+  <!-- Ambient Grid Background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- Pure CSS State Management -->
+  <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox" aria-hidden="true">
+  <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-hidden="true">
+
+  <!-- Intro Screen Animation -->
+  <div class="intro-screen" aria-hidden="true">
+    <div class="intro-content">
+      <p class="intro-eyebrow">// SYSTEM INITIATION</p>
+      <h1 class="intro-title">Bernalita P. <span class="gradient-text">Rosario</span></h1>
+      <div class="intro-loader"></div>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#home" class="logo" aria-label="Bernalita P. Rosario, home">
+        BR<span class="logo-dot">.</span>
+      </a>
+
+      <div class="nav-wrapper">
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="index.html">Team Hub</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        
+        <label for="theme-toggle" class="theme-switch" aria-label="Toggle dark/light mode"></label>
+      </div>
+
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+  </header>
+
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span> Available for Opportunities
+        </div>
+        
+        <p class="hero-eyebrow">// PROFESSIONAL PROFILE</p>
+        <h1 class="hero-name">Bernalita P. <span class="gradient-text">Rosario</span></h1>
+        <p class="hero-role">Aspiring Web Support Specialist</p>
+
+        <div class="terminal-window">
+          <div class="terminal-header">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="terminal-title">guest@brosario:~</span>
+          </div>
+          <div class="terminal-body">
+            <p class="hero-terminal">
+              <span class="terminal-prompt">~ $</span> execute --mission "supporting web and digital projects with creative and technical skills"
+              <span class="cursor-blink" aria-hidden="true">_</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="#experience" class="btn btn-primary">View Experience</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label-tag">01. PROFILE</span>
+          <h2 class="section-heading">Motivated operations & digital design specialist.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="profile-card">
+            <div class="profile-frame" data-initials="BR">
+              <img src="Rosario.jpg" alt="Portrait of Bernalita P. Rosario" class="profile-img" loading="lazy" width="350" height="350" onerror="this.style.display='none'">
+            </div>
+          </div>
+
+          <div class="about-text">
+            <p>
+              I am a motivated individual equipped with solid foundational skills in computer operations, graphic design, and practical content creation.
+            </p>
+            <p>
+              I aim to use my technical and creative abilities to support web and digital projects, actively contribute to team goals, and continuously grow through practical, hands-on work experience.
+            </p>
+            <a href="#contact" class="link-arrow">Let's work together <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label-tag">02. CAREER</span>
+          <h2 class="section-heading">Professional Journey</h2>
+        </div>
+
+        <!-- Using single-card grid for focused experience -->
+        <div class="experience-timeline" style="grid-template-columns: 1fr; max-width: 800px; margin: 0 auto;">
+          
+          <article class="exp-card">
+            <div class="exp-header">
+              <div class="exp-title-group">
+                <h3>ICT Support Trainee</h3>
+                <p class="exp-company">Papallasen Elementary School</p>
+              </div>
+              <span class="exp-date">Jan 05 — Jan 16, 2026</span>
+            </div>
+            <ul class="exp-list">
+              <li>Assisted in maintaining and meticulously organizing digital files and school records.</li>
+              <li>Created clean, simple visual materials and layouts for internal school use.</li>
+              <li>Helped troubleshoot basic computer and document formatting issues for faculty.</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label-tag">03. EXPERTISE</span>
+          <h2 class="section-heading">Core Skills & Qualifications</h2>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Competencies & Awards -->
+          <div class="bento-box skill-category">
+            <h3 class="bento-title">Core Competencies</h3>
+            <div class="tools-row" style="margin-bottom: 2.5rem;">
+              <span class="tool-chip">Computer Operations</span>
+              <span class="tool-chip">Basic Web Support</span>
+              <span class="tool-chip">Graphic Design & Layout</span>
+              <span class="tool-chip">Content Creation</span>
+              <span class="tool-chip">Basic Troubleshooting</span>
+              <span class="tool-chip">Microsoft Office Suite</span>
+              <span class="tool-chip">File Management</span>
+            </div>
+
+            <h3 class="bento-title" style="font-size: 1.2rem; margin-bottom: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--color-border);">Awards & Achievements</h3>
+            
+            <div class="edu-item">
+              <div class="edu-icon">🥇</div>
+              <div class="edu-details">
+                <strong>1st Placer</strong>
+                <span>Basic Computer Operations Quiz Bee | 2025</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-icon">🎨</div>
+              <div class="edu-details">
+                <strong>6th Placer & Best in Design</strong>
+                <span>Tarpaulin Layout Competition | 2025</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-icon">🌟</div>
+              <div class="edu-details">
+                <strong>Outstanding Performance</strong>
+                <span>Computer Literacy Recognition | 2024-2025</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education & Languages -->
+          <div class="bento-box education-block">
+            <h3 class="bento-title">Education</h3>
+            
+            <div class="edu-item">
+              <div class="edu-icon">🎓</div>
+              <div class="edu-details">
+                <strong>Senior High School (TVL - ICT Track)</strong>
+                <span>Umingan National High School | 2024 - Present</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-icon">🏫</div>
+              <div class="edu-details">
+                <strong>Junior High School</strong>
+                <span>Umingan National High School | 2020 - 2024</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-icon">🎒</div>
+              <div class="edu-details">
+                <strong>Elementary Education</strong>
+                <span>Papallasen Elementary School | 2014 - 2020</span>
+              </div>
+            </div>
+
+            <h3 class="bento-title" style="font-size: 1.2rem; margin-bottom: 1.5rem; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--color-border);">Languages</h3>
+            
+            <div class="edu-item">
+              <div class="edu-icon">🗣️</div>
+              <div class="edu-details">
+                <strong>Tagalog / Ilocano</strong>
+                <span>Native Proficiency</span>
+              </div>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-icon">🌐</div>
+              <div class="edu-details">
+                <strong>English</strong>
+                <span>Conversational</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-inner">
+          <span class="section-label-tag centered">04. CONNECT</span>
+          <h2 class="section-heading">Ready to Collaborate?</h2>
+          <p class="contact-sub">
+            Looking for a motivated Web Support Specialist to join your team? Feel free to reach out.
+          </p>
+
+          <div class="contact-buttons">
+            <a href="Bernalita_P_Rosario_Updated_Resume.pdf" download class="btn btn-primary">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="margin-right:8px;"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              Download Resume
+            </a>
+            <a href="mailto:bernalitarosario4@gmail.com" class="btn btn-outline">Email Me</a>
+            <a href="tel:09163830687" class="btn btn-outline">Call Me</a>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-item">
+              <span class="contact-label">Email Address</span>
+              <a href="mailto:bernalitarosario4@gmail.com" class="contact-link">bernalitarosario4@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Phone Number</span>
+              <a href="tel:09163830687" class="contact-link">0916-383-0687</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Location</span>
+              <span class="contact-link">Papallasen, Umingan, Pangasinan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo" aria-label="Back to top">
+        BR<span class="logo-dot">.</span>
+      </a>
+      <p class="footer-copy">© 2026 Bernalita P. Rosario. Engineered with Pure HTML & CSS.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
